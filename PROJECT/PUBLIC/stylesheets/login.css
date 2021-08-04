@@ -87,6 +87,11 @@ color: wheat;
     color: #d3d3d3;
   }
 
+  .sign-up{
+    text-decoration: none;
+    /* color: wheat; */
+  }
+
   /*Media queries */
 
   @media all and (min-width: 481px) and (max-width: 568px) {

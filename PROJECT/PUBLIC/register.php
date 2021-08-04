@@ -1,45 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registration Page</title>
-  </head>
-  <body>
-    <header>
-      <nav></nav>
-    </header>
-    <main>
-        <h1>
-            Register
-        </h1>
-        <form action="register page">
-        <div class="container">
-            <label for="Username">Username</label><br>
-            <input type="text" name="Username" id="" class="" placeholder="Username">
-            </input><br>
-            <label for="Email"> Email Address</label><br>
-            <input type="text" name="Email" id="" class="" placeholder="Email Address">
-        </input><br>    
-        <label for="password"> Password</label><br>
-        <input type="password" name="" id="" class="" placeholder="Password">
-        </input><br>
-        <label for="retype-password">Retype Password</label><br>
-        <input type="password" name="" id="" class="" placeholder = "Both passwords must be matched">
-        </input><br>
-          <button name = " " id = " " class = " ">
-          Registered
-          </button><br>
-          <p>
-              already have an account 
-              <a href="#">login</a>
-          </p>
-          
-    </div>
-    </form>
-    </main>
-    <section></section>
-    <footer></footer>
-  </body>
-</html>
+<html>
+    <head>
+        
+    <link href="stylesheets/register.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>REGISTER YOURSELF</title>
+    </head>
+<body>
+ <header>
+
+ </header>
+
+    <div id="container">
+       <header>REGISTER</header>
+       <form method="post" action="">
+          <fieldset>
+             <br/>
+             <input type="text" name="username" id="username" placeholder="Username"  required autofocus value="">
+             <br/><br/>
+             <input type="text" name="username" id="username" placeholder="Email-id"  required autofocus value="">
+             <br/><br/>
+             <input type="text" name="username" id="username" placeholder="Password"  required autofocus value="">
+             <br/><br/>
+             <input type="password" name="password" id="password" placeholder="Retype-Password"  required  value="">
+             <br/><br/>
+             <label for="submit"></label>
+             <a href="login.php" class = "submit">
+                <input type="submit" name="submit" id="submit" value="REGISTER">
+               </a>
+               <p class="lastSentence">Already have an account? <a href="login.php" class = "login">Log in</a></p>
+            </fieldset>
+         </form>
+      </div>
+
+
+
+   <footer>
+
+   </footer>
+ </body>
+ </html>
