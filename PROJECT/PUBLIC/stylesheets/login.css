@@ -4,7 +4,8 @@ html {
   }
 
   body {
-    background: url("img.jpeg") no-repeat center center fixed;
+    background-image: url("../images/img.jpeg");
+    /* background: url("images/img.jpeg") no-repeat center center fixed; */
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
