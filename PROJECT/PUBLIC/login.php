@@ -20,7 +20,7 @@
              <input type="password" name="password" id="password" placeholder="Password"  required  value="">
              <br/><br/>
              <label for="submit"></label>
-             <input type="submit" name="submit" id="submit" value="LOGIN">
+             <a type="submit" href="Pages/patient-form.php" id="login">LOGIN</a>
              <p class="text-center md">Don't have an account? <a href="register.php" class = "sign-up">Sign up here!</a></p>
           </fieldset>
        </form>
@@ -30,5 +30,7 @@
    <footer>
 
    </footer>
+
+    
  </body>
  </html>

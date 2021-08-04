@@ -61,6 +61,11 @@ color: wheat;
       Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
+#login{
+  color: wheat;
+  
+}
+
   input {
     background: transparent;
     border: 0;
