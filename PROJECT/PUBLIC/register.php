@@ -10,24 +10,22 @@
 
  </header>
 
-    <div id="container">
+    <div id="container form_inputs">
        <header>REGISTER</header>
-       <form method="post" action="">
+       <form method="POST" action="../PRIVATE/register.php" id="register_form">
           <fieldset>
              <br/>
-             <input type="text" name="username" id="username" placeholder="Username"  required autofocus value="">
+             <input class="" value="<?php $_POST['username']??''; ?>" type="text" name="username" id="username" placeholder="Username"  required autofocus>
              <br/><br/>
-             <input type="text" name="username" id="username" placeholder="Email-id"  required autofocus value="">
+             <input class="" value="<?php $_POST['email']??''; ?>" type="text" name="email" id="email" placeholder="Email-id"  required autofocus>
              <br/><br/>
-             <input type="password" name="username" id="username" placeholder="Password"  required autofocus value="">
+             <input class="" type="password" name="password" id="password" placeholder="Password"  required autofocus value="">
              <br/><br/>
-             <input type="password" name="password" id="password" placeholder="Retype-Password"  required  value="">
+             <input class="" type="password" name="password2" id="password2" placeholder="Retype-Password"  required  value="">
              <br/><br/>
              <label for="submit"></label>
-             <a href="login.php" class = "submit">
-                <input type="submit" name="submit" id="submit" value="REGISTER">
-               </a>
-               <p class="lastSentence">Already have an account? <a href="login.php" class = "login">Log in</a></p>
+             <input type="submit" name="submit" id="submit" value="Sign up">
+             <p class="lastSentence">Already have an account? <a href="login.php" class = "login">Log in</a></p>
             </fieldset>
          </form>
       </div>

@@ -91,6 +91,10 @@
       .lastSentence{
           color: white;
       }
+      
+      .form_inputs .error {
+       border: 2px solid red;
+      }
 
       /*Media queries */
 
@@ -106,3 +110,5 @@
           margin-bottom: 5%;
         }
       }
+      
+      

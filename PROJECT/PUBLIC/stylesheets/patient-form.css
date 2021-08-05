@@ -6,6 +6,11 @@ body{
 
 }
 
+.row .form-group input {
+    font-size: 20px;
+    color: white;
+}
+
 .main-form{
     width: 685px;
     border: 2px solid black;
@@ -118,4 +123,12 @@ h3{
     border-left:none;
     border-right:none;
     border-bottom:2px solid greenyellow ;
+}
+
+#navbarcollapse ul li a {
+    color:white;
+}
+
+#show_user {
+    float: right;
 }
