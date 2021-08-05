@@ -19,7 +19,7 @@
              <br/><br/>
              <input type="text" name="username" id="username" placeholder="Email-id"  required autofocus value="">
              <br/><br/>
-             <input type="text" name="username" id="username" placeholder="Password"  required autofocus value="">
+             <input type="password" name="username" id="username" placeholder="Password"  required autofocus value="">
              <br/><br/>
              <input type="password" name="password" id="password" placeholder="Retype-Password"  required  value="">
              <br/><br/>
